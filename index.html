@@ -1,74 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <title>My Website</title>
+    <title>Game Table</title>
     <style>
-        /* applying styles to elements */
+        /* CSS for the list */
         ul {
-            color: #008080;
-            font-size: 20px;
-            background-color: #fffacd;
+            list-style: square inside;
+            font-size: 18px;
+            color: #336699; /* Hex color */
+        }
+
+        /* CSS for the table */
+        table {
+            font-size: 18px;
+            background-color: rgb(255, 200, 0); /* RGB color */
+            width: 100%;
             text-align: center;
         }
+
+        th, td {
+            padding: 10px;
+        }
+
         th {
-            color: #336699;
+            background-color: #009933; /* Hex color */
+            color: white;
         }
+
         td {
-            color: #800080;
-        }
-        h1 {
-            text-align: center;
-            color: #336699;
-        }
-        hr {
-            border: 2px solid #ccc;
-        }
-        .contact-link {
-            color: #2e8b57;
-            font-weight: bold;
+            background-color: #FF6666; /* Hex color */
         }
     </style>
 </head>
+
 <body>
-    <h1>Welcome to My Website</h1>
-    <h2>About Me</h2>
-    <p>
-        Hello, my name is John Doe. I am a web developer with a passion for coding.
-        <br>
-        I have experience in HTML, CSS, and JavaScript.
-    </p>
-    <hr>
-    <h2>Skills</h2>
-    <!-- using ul, ol, and li tags -->
+    <h1>Example Section</h1>
+
+    <!-- Unordered List -->
     <ul>
-        <li><b>HTML</b></li>
-        <li><b>CSS</b></li>
-        <li><b>JavaScript</b></li>
+        <li>This is a list item</li>
+        <li>Another list item</li>
+        <li>One more list item</li>
     </ul>
-    <!-- using table, tr, th, and td tags -->
-    <h2>Experience</h2>
-    <table>
+
+    <!-- Ordered List -->
+    <ol>
+        <li>First item in the ordered list</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <!-- Table -->
+    <table border="1">
         <tr>
-            <th>Date</th>
-            <th>Position</th>
-            <th>Company</th>
+            <th>Header 1</th>
+            <th>Header 2</th>
         </tr>
         <tr>
-            <td>2019-2021</td>
-            <td>Front-end Developer</td>
-            <td>ABC Company</td>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
         </tr>
         <tr>
-            <td>2021-Present</td>
-            <td>Senior Front-end Developer</td>
-            <td>XYZ Inc.</td>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
         </tr>
     </table>
-    <h2>Contact Me</h2>
-    <p>
-        You can reach me via email at <a href="mailto:john@example.com" class="contact-link">john@example.com</a>.
-    </p>
-    <h2>My Picture</h2>
-    <img src="profile.jpg" alt="My Profile Picture">
 </body>
 </html>
+
