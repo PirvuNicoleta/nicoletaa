@@ -30,6 +30,59 @@
         td {
             background-color: #FF6666; /* Hex color */
         }
+
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+        }
+
+        h1 {
+            color: #0099cc;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        table {
+            background-color: #fff;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #0099cc;
+            color: #fff;
+            font-size: 18px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .h1 {
+            color: red;
+        }
+
+        #h2 {
+            color: blue;
+        }
     </style>
 </head>
 
@@ -51,19 +104,26 @@
     </ol>
 
     <!-- Table -->
-    <table border="1">
-        <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-        </tr>
-        <tr>
-            <td>Row 1, Cell 1</td>
-            <td>Row 1, Cell 2</td>
-        </tr>
-        <tr>
-            <td>Row 2, Cell 1</td>
-            <td>Row 2, Cell 2</td>
-        </tr>
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </tbody>
     </table>
+
+    <p class="h1">This paragraph is styled with the class "h1" and should be red.</p>
+    <h2 id="h2">This heading is styled with the id "h2" and should be blue.</h2>
 </body>
 </html>
